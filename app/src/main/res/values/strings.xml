@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Knoedel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dbname">Settings</string>
+    <string name="version">1</string>
+    <string name="search">Search</string>
+
+    <string-array name="create">
+        <item>
+            create table recipes(
+            id integer primary key autoincrement,
+            name varchar(20) not null
+            )
+        </item>
+    </string-array>
+</resources>
